@@ -82,7 +82,16 @@ const MansoryItem: React.FC<MansoryItemProps> = ({ item }) => {
                   ))}
                 </p>
               )}
+              <div className="view-details">
+                <span>View Details</span>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path d="M4.16666 10H15.8333" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+                  <path d="M10 4.16666L15.8333 10L10 15.8333" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </div>
             </div>
+            
+            
           </MansoryItemStyle>
 
           <SideBarModal
@@ -177,6 +186,21 @@ const MansoryItemStyle = styled.div`
       z-index: 999;
       transform: none;
       opacity: 1;
+      .view-details {
+      margin-top: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 500;
+      opacity: 0.8;
+      transition: opacity 0.2s ease;
+
+      svg {
+        transition: transform 0.2s ease;
+      }
+    }
     }
   }
 

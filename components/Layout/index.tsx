@@ -53,7 +53,7 @@
         <Navbar />
         <BackLay title={title}>
           <h1 aria-hidden="true">
-            {title === 'Home' ? 'CW.' : title.concat('.')}
+            {title === 'Home' ? 'Anuj Dakhara' : title.concat('.')}
           </h1>
         </BackLay>
         <Cursor />

@@ -24,23 +24,22 @@ const Home = () => {
         <PageWrapper>
           <article>
             <motion.h1
-              data-text="Anuj Sureshbhai Dakhara"
+              data-text="I'm Anuj Sureshbhai Dakhara"
               className="intro__text"
               {...getTransitions(0.1)}
             >
-              <mark className="mark">Anuj Sureshbhai Dakhara</mark>
+              <mark className="mark">I'm Anuj Sureshbhai Dakhara</mark>
             </motion.h1>
             <motion.p {...getTransitions(0.3)}>
               {' '}
-              Hi, I’m Anuj Sureshbhai Dakhara, a junior at SUNY Stony Brook University majoring in Computer Science Honors.
-               My academic journey combines a passion for full-stack web development, AI-driven innovations, and data visualization.
-              With experience in tools like React, Next.js, Neo4j, and AWS, I’ve built projects ranging from AI-powered platforms
-               to scalable content management systems. My work reflects a commitment to creating impactful and efficient applications while 
-               embracing emerging technologies.
+              a junior at the State University of New York at Stony Brook, pursuing Computer Science with Honors.
+               My academic experience is characterized by a keen interest in full-stack web development, artificial intelligence-based innovations, 
+               and data visualization.With practical experience in technologies such as React, Next.js, Neo4j, and AWS, I have developed 
+               projects ranging from AI-driven platforms to large-scale content management systems. My work in the field demonstrates a dedication to developing efficient and relevant applications while
+                embracing new technologies.
 
-              I’m also an active contributor to campus organizations, where I foster collaboration,
-              innovation, and leadership. Beyond academics, I’m an avid problem-solver who enjoys pushing the boundaries of what technology
-              can achieve.
+                I'm also an active member of campus organizations, where I foster teamwork, Leadership and innovation are at the core of my 
+                activities. Beyond academics, I am a keen problem solver who loves to stretch the limits of what can be done with technology.
 
               Feel free to explore my {' '}
               <Link href="/projects" aria-label="Go to Projects Page">

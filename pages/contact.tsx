@@ -37,13 +37,15 @@ const Contact = () => {
     <Layout title="Contact">
       <PageSection>
         <PageWrapper>
-          <h1 className="intro__text">Contact.</h1>
-          <article>
-            <p>
-              Get in touch or shoot me an email directly on{' '}
-              <b>anuj.dakhara@gmail.com</b>
-            </p>
-          </article>
+          <h1 className="intro__text">Contact Me.</h1>
+          {!submitted && (
+            <article>
+              <p>
+                Get in touch or shoot me an email directly on{' '}
+                <b>anuj.dakhara@gmail.com</b>
+              </p>
+            </article>
+          )}
           <br />
           {!submitted ? (
             <div>
@@ -89,7 +91,9 @@ const Contact = () => {
                 Send Message
               </button>
             </div>
-          ) : null}
+          ) : (<p style={{ fontSize: '18px', fontWeight: 'bold', color: 'green', marginTop: '20px' }}>
+            Thank you for contacting me! I will get back to you soon.
+          </p>)}
         </PageWrapper>
       </PageSection>
 

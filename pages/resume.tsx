@@ -178,7 +178,7 @@ const PageSection = styled.div`
   }
   iframe {
     width: 100%;
-    filter: invert(var(--invert)) grayscale(calc(var(--invert) - 0.15));
+    filter: none;
     border: none;
     height: 44.5rem;
     @media (min-width: 768px) {

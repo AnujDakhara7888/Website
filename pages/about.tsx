@@ -38,13 +38,10 @@ const About = () => {
         <PageWrapper className="vision-section">
           <h1 className="vision-title" style={{ color: '#00bcd4 ' }}>Vision</h1>
           <p>
-            I envision a world where technology bridges gaps, simplifies lives,
-            and creates opportunities for everyone. My mission is to develop
-            tools and applications that are not only functional but also
-            meaningful—solutions that inspire innovation while making a positive
-            impact on society. Through a combination of CREATIVITY, TECHNICAL EXPERTISE, 
-            and a USER CENTRIC MINDSET, I aim to contribute to
-            projects that solve real-world challenges and bring ideas to life.
+          I envision a world in which technology bridges gaps, simplifies lives, and unlocks possibilities for all. My goal is to build tools and 
+          apps that are not only functional but meaningful—solutions that ignite innovation and result in a positive impact on society. 
+          By integrating creativity, technical expertise, and a human-centered mindset, I aim to contribute to projects that address 
+          real-world challenges and ideas to life.
           </p>
         </PageWrapper>
 
@@ -88,13 +85,124 @@ const About = () => {
 
         {/* Skills Section */}
         <PageWrapper className="skills-section">
-            <h2 className="skills-title"><strong>Skills</strong></h2>
-            <div className="skills-cloud">
-              {['Java', 'Python', 'React', 'Node.js', 'CSS', 'HTML', 'MySQL', 'jQuery', 'Django', 'Git', 'JavaScript', 'C++', 'OpenCV', 'GCP'].map((skill, index) => (
-                <span key={index} className="skill">{skill}</span>
-              ))}
-            </div>
-          </PageWrapper>
+  <h2 className="skills-title" style={{ color: '#00bcd4' }}>Skills</h2>
+  <div className="skills-grid">
+    {/* Languages */}
+    <div className="skill-category">
+      <h3>Languages</h3>
+      <div className="skill-items">
+        <div className="skill-item">
+          <img src="/img/TS.png" alt="TypeScript" className="skill-icon" />
+          <span>TypeScript</span>
+        </div>
+        <div className="skill-item">
+          <img src="/img/JavaScript.png" alt="JavaScript" className="skill-icon" />
+          <span>JavaScript</span>
+        </div>
+        <div className="skill-item">
+          <img src="/img/php.png" alt="PHP" className="skill-icon" />
+          <span>PHP</span>
+        </div>
+        <div className="skill-item">
+          <img src="/img/python.png" alt="Python" className="skill-icon" />
+          <span>Python</span>
+        </div>
+        <div className="skill-item">
+          <img src="/img/ruby.png" alt="Ruby" className="skill-icon" />
+          <span>Ruby</span>
+        </div>
+      </div>
+    </div>
+
+    {/* Front-End */}
+    <div className="skill-category">
+      <h3>Front-End</h3>
+      <div className="skill-items">
+        <div className="skill-item">
+          <img src="/img/react.png" alt="React" className="skill-icon" />
+          <span>React</span>
+        </div>
+        <div className="skill-item">
+          <img src="/img/react-native.png" alt="React Native" className="skill-icon" />
+          <span>React Native</span>
+        </div>
+        <div className="skill-item">
+          <img src="/img/tailwind.png" alt="Tailwind" className="skill-icon" />
+          <span>Tailwind</span>
+        </div>
+      </div>
+    </div>
+
+    {/* Back-End */}
+    <div className="skill-category">
+      <h3>Back-End</h3>
+      <div className="skill-items">
+        <div className="skill-item">
+          <img src="/img/node.png" alt="Node.js" className="skill-icon" />
+          <span>Node.js</span>
+        </div>
+        <div className="skill-item">
+          <img src="/img/express.png" alt="Express" className="skill-icon" />
+          <span>Express</span>
+        </div>
+        <div className="skill-item">
+          <img src="/img/C.png" alt="C" className="skill-icon" />
+          <span>C</span>
+        </div>
+        <div className="skill-item">
+          <img src="/img/Java.png" alt="Java" className="skill-icon" />
+          <span>Java</span>
+        </div>
+      </div>
+    </div>
+
+    {/* Cloud */}
+    <div className="skill-category">
+      <h3>Cloud</h3>
+      <div className="skill-items">
+        <div className="skill-item">
+          <img src="/img/aws.png" alt="AWS" className="skill-icon" />
+          <span>AWS</span>
+        </div>
+        <div className="skill-item">
+          <img src="/img/googlecloud.png" alt="Google Cloud" className="skill-icon" />
+          <span>Google Cloud</span>
+        </div>
+        <div className="skill-item">
+          <img src="/img/vercel.png" alt="Vercel" className="skill-icon" />
+          <span>Vercel</span>
+        </div>
+        <div className="skill-item">
+          <img src="/img/heroku.png" alt="Heroku" className="skill-icon" />
+          <span>Heroku</span>
+        </div>
+      </div>
+    </div>
+
+    {/* Databases */}
+    <div className="skill-category">
+      <h3>Databases</h3>
+      <div className="skill-items">
+        <div className="skill-item">
+          <img src="/img/mongodb.png" alt="MongoDB" className="skill-icon" />
+          <span>MongoDB</span>
+        </div>
+        <div className="skill-item">
+          <img src="/img/dynamo.png" alt="Dynamo" className="skill-icon" />
+          <span>Amazon Dyanmo DB</span>
+        </div>
+        <div className="skill-item">
+          <img src="/img/sql.png" alt="MySQL" className="skill-icon" />
+          <span>MySQL</span>
+        </div>
+        <div className="skill-item">
+          <img src="/img/redis.png" alt="Redis" className="skill-icon" />
+          <span>Redis</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</PageWrapper>
 
 
 
@@ -390,39 +498,77 @@ const PageSection = styled.div`
     }
   }
     .skills-section {
-    text-align: center;
-    margin-bottom: 3rem;
-
-    .skills-cloud {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 1rem;
-      margin-top: 3rem;
+    padding: 2rem 0;
+    
+    .skills-title {
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 2rem;
     }
 
-    .skill {
-      background: #e0f7fa;
-      color: #00796b;
-      padding: 8px 12px;
-      border-radius: 16px;
-      font-size: 1rem;
-      font-weight: bold;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s ease;
-      cursor: pointer;
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      padding: 1rem;
+    }
 
-      &:hover {
-        transform: scale(1.1);
-        background: #00acc1;
-        color: #ffffff;
+    .skill-category {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+      h3 {
+        color: #00bcd4;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        font-weight: 600;
       }
     }
-      .skills-title {
-  color: #00bcd4;
-  font-weight: bold; /* Added bold font weight */
-  margin-bottom: 1rem;
-}
+
+    .skill-items {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      gap: 1rem;
+    }
+
+    .skill-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.75rem;
+      background: rgba(255, 255, 255, 0.93);
+      border-radius: 8px;
+      transition: transform 0.2s ease;
+
+      &:hover {
+        transform: translateY(-2px);
+      }
+
+      .skill-icon {
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+      }
+
+      span {
+        font-size: 0.9rem;
+        text-align: center;
+        color: var(--text-color);
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .skills-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .skill-items {
+      grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    }
   }
 `;
 

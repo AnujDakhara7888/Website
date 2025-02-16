@@ -72,18 +72,6 @@ const Projects = () => {
       <PageSection>
         <PageWrapper>
           <h1 className="intro__text">Projects.</h1>
-
-          {/* Engaging Animated Text */}
-          <motion.p 
-            className="info-text"
-            initial={{ opacity: 0, y: -10, scale: 0.9 }}
-            animate={{ opacity: 1, y: 0, scale: 1 }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
-            whileHover={{ scale: 1.1 }}
-          >
-             <span className="highlight">Click on a project to explore the magic inside!</span>
-          </motion.p>
-
           <br />
           <MansoryLayout>
             {projectsData
