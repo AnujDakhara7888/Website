@@ -90,6 +90,7 @@ import FooterLink from '../components/Footer';
 //     font-weight: 400;
 //     color: var(--article-color) !important;
 //   }
+// 1_o69Wj2D7lxRrVGAEGQPJCw5mu77PMGd
 //   iframe {
 //     width: 100%;
 //     filter: invert(var(--invert)) grayscale(calc(var(--invert) - 0.15));
@@ -104,7 +105,7 @@ import FooterLink from '../components/Footer';
 // export default Resume;
 const Resume = () => {
   const resumeData =
-    'https://drive.google.com/file/d/1_o69Wj2D7lxRrVGAEGQPJCw5mu77PMGd/view'; // Replace with your actual resume link
+    'https://drive.google.com/file/d/1douKE8MaSexv2hziWoR1tBOhtzAqB6NWukzP3hzuOB0/view'; // Replace with your actual resume link
 
   return (
     <Layout title="Resume">
@@ -130,14 +131,15 @@ const Resume = () => {
               </b>{' '}
               or{' '}
               <b>
-                <a
-                  href={('https://drive.google.com/uc?export=download&id=1_o69Wj2D7lxRrVGAEGQPJCw5mu77PMGd')}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Download Resumé"
-                >
-                  download
-                </a>
+              <a
+  href="https://docs.google.com/document/d/1douKE8MaSexv2hziWoR1tBOhtzAqB6NWukzP3hzuOB0/export?format=pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Download Resumé"
+>
+  Download
+</a>
+
               </b>{' '}
               my resume.
             </p>

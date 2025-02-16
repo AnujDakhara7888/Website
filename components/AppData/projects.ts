@@ -5,9 +5,9 @@ const PROJECTS_DATA = [
       "A high-performance AI-powered image indexing and retrieval system using deep learning techniques.",
     about:
       "ImageMind is an advanced image indexing and retrieval system built using Python, Flask, PyTorch, and FAISS. It features a custom MobileNetV3-based neural network, significantly enhancing feature extraction efficiency. The system enables large-scale image dataset processing with optimized performance through a RESTful API, multi-threading, and state management. The project integrates attention mechanisms to improve image search accuracy and retrieval speed.",
-    link: "https://github.com/Anuj7888",
+    link: "https://github.com/AnujDakhara7888",
     imageUrl: "/img/ImageMind.png",
-    github: "https://github.com/Anuj7888",
+    github: "https://github.com/AnujDakhara7888",
     type: ["project", "AI", "computer-vision"],
     technologies: [
       "Python",
@@ -25,9 +25,9 @@ const PROJECTS_DATA = [
       "A real-time application for retrieving Near Earth Object (NEO) data from NASA’s API.",
     about:
       "NEO Tracker is an interactive web application designed to fetch and analyze real-time Near Earth Object (NEO) data from NASA’s API. The project features advanced data structures and BigData’s JSON parsing techniques for efficient analysis. Users can visualize live NEO data with an interactive UI, built using D3.js for intuitive data representation. Performance optimizations include multi-threading and caching mechanisms in Java to ensure smooth data retrieval and visualization.",
-    link: "https://github.com/dsd7888/NEO-Tracker",
+    link: "https://github.com/AnujDakhara7888",
     imageUrl: "/img/Neo.png",
-    github: "https://github.com/dsd7888/NEO-Tracker",
+    github: "https://github.com/AnujDakhara7888",
     type: ["project", "data-analysis", "space-tech"],
     technologies: [
       "Java",
@@ -44,9 +44,9 @@ const PROJECTS_DATA = [
       "An interactive web-based language learning platform for enhanced user engagement.",
     about:
       "KnowledgeNest is a language learning app designed with a responsive and user-friendly interface. It enables seamless course sales while ensuring an immersive learning experience. Built using HTML, JavaScript, and CSS, the platform enhances accessibility across devices, ensuring a smooth and engaging learning journey.",
-    link: "https://github.com/dsd7888/KnowledgeNest",
+    link: "https://github.com/AnujDakhara7888",
     imageUrl: "/img/KnwoledgeNest.png",
-    github: "https://github.com/dsd7888/KnowledgeNest",
+    github: "https://github.com/AnujDakhara7888",
     type: ["project", "education-tech", "web-development"],
     technologies: ["HTML", "CSS", "JavaScript", "UI/UX"],
   },
@@ -56,9 +56,9 @@ const PROJECTS_DATA = [
       "A Python-based project enabling hands-free mouse control using eye movements.",
     about:
       "Eye-Controlled Mouse is an accessibility-focused project that allows users to control their computer's cursor using only their eyes. By leveraging OpenCV and MediaPipe for real-time face tracking, this application enables smooth cursor movement and click actions through blinking or winking, enhancing accessibility and human-computer interaction.",
-    link: "https://github.com/dsd7888/eye-controlled-mouse",
+    link: "https://github.com/AnujDakhara7888",
     imageUrl: "/img/EyeMask.png",
-    github: "https://github.com/dsd7888/eye-controlled-mouse",
+    github: "https://github.com/AnujDakhara7888",
     type: ["project", "AI", "computer-vision", "accessibility"],
     technologies: [
       "Python",
@@ -74,9 +74,9 @@ const PROJECTS_DATA = [
     description: "A web-based Q&A platform inspired by Stack Overflow.",
     about:
       "Fake Stack Overflow is a fully functional Q&A platform that replicates the core functionalities of Stack Overflow. It features user authentication, question management, voting, and commenting systems. The application is built with React for the frontend, Node.js and Express for the backend, and MongoDB as the database. It includes secure password storage using bcrypt and a responsive, user-friendly interface.",
-    link: "https://github.com/sbu-ckane-s24-cse316-pa04org/pa04-team-vadapav", // Replace with your live demo or GitHub repo link
+    link: "https://github.com/AnujDakhara7888", // Replace with your live demo or GitHub repo link
     imageUrl: "/img/Stack.png", // Replace with your project's image or screenshot
-    github: "https://github.com/myusername/fake-stack-overflow", // Replace with your GitHub repo link
+    github: "https://github.com/AnujDakhara7888", // Replace with your GitHub repo link
     type: ["project", "full-stack", "open-source"],
     technologies: [
       "React",
