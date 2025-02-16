@@ -60,15 +60,6 @@ const FooterLink: React.FC<IFooterLink &
         >
           <Github />
         </a>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://instagram.com/anuj_dakhara"
-          aria-label="Go To Adenekan Wonderful Instagram Page"
-          title="Instagram Page"
-        >
-          <Instagram />
-        </a>
       </SocialMedia>
     </>
   );
